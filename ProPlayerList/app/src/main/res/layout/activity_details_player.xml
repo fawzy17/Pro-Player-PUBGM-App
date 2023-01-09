@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details_player"
+    android:background="@color/white">
+    <include layout="@layout/background"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:padding="10dp"
+        android:id="@+id/toolbarDetails">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:id="@+id/back_icon_onDetails"/>
+
+        <TextView
+            android:id="@+id/nama_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/heroes_name" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/small_detail_foto"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            tools:src="@tools:sample/avatars"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bio_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/toolbarDetails">
+
+        <ImageView
+            android:id="@+id/big_detail_foto"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            tools:src="@tools:sample/avatars"></ImageView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bio_detail"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:id="@+id/detail_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/detail" />
+
+        <TextView
+            android:id="@+id/desc_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_player"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="@string/desc_player" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/share"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

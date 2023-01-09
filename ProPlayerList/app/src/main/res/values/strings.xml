@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pro Player PUBG Mobile</string>
+    <string name="heroes_name">Nama Player</string>
+    <string name="detail">Details</string>
+    <string name="list">List</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="author_name">Ray Rizky Fawzy</string>
+    <string name="info_author">Pekerjaan\t: Mahasiswa\nProdi\t\t\t: S1-Teknik Informatika\nPTN\t\t\t\t: Universitas Singaperbangsa Karawang
+    \nEmail\t\t\t: rayrizkyfawzy@gmail.com\nNo.Telp\t\t: 089699754015</string>
+    <string name="bio">Bio</string>
+    <string name="skill">Skill</string>
+    <string name="skil_info">C++ dasar\t\t\t: 90%\nPhyton dasar\t: 80%\nJava dasar\t\t: 80%
+    \nSql dasar\t\t\t: 70%</string>
+    <string name="riwayat_pendidikan">Riwayat pendidikan</string>
+    <string name="riwayat_info">SD\t\t\t\t: SDn Sukamahi 03\nSMP\t\t\t: SMPn 1 Cikarang Pusat\nSMA\t\t\t: SMAn 2 Cikarang Pusat</string>
+    <string name="isi_pesan">Saya sangat senang mengikuti kelas Membuat Aplikasi Android bersama Dicoding Academy Indonesia.
+    \nSemoga saya bisa mengikuti kelas-kelas lain dan bisa menjadi seorang pro.</string>
+    <string name="desc_player">Desc Player</string>
+</resources>
